@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <link rel="stylesheet" href="button.css">
+    <style>
+       
+        /* Apply an inclined text-based watermark */
+    .watermark {
+        position: sticky;
+        width: 100%; /* Ensure the watermark spans the entire width */
+        height: 100%; /* Ensure the watermark spans the entire height */
+        /* overflow: hidden; */
+    }
+
+    .watermark::before {
+        content: "Tap Academy";
+        color: rgba(0, 0, 0, 0.1); /* Text color with reduced opacity */
+        font-size: 2em;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-45deg); /* Rotate and translate the text */
+        transform-origin: 0 0; /* Set the rotation origin to the top-left corner */
+    }
+
+
+    
+
+
+
+    </style>
+</head>
+<body>
+    
+    
+        <div class="watermark">
+            <h1>hello evertOne</h1>
+        </div>
+    
+    
+</body>
+</html>

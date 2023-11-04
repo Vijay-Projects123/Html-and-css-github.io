@@ -1,0 +1,12 @@
+.button{
+    height: fit-content;
+    width: fit-content;
+    background-color: #4F6F52;
+    color: white;
+    font-size: 15px;
+
+}
+.button:hover{
+    background-color: #662549;
+
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Course List</title>
+    <style>
+        
+        .course-list {
+            position: relative;
+            display: inline-block;
+        }
+
+        .course-list:hover .dropdown {
+            display: block;
+            width: 375px;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: #B2C8BA;
+            border: 1px solid #739072;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding-top: 20px;
+            /* top: 100%; */
+            /* left: 0; */
+            /* border: #4F6F52; */
+            text-align: center;
+            
+            
+        }
+
+        .dropdown ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="course-list">
+        Course 1
+        <div class="dropdown">
+            <ul>
+                <li><a href="course1-1.html">Course 1.1</a></li>
+                <li><a href="course1-2.html">Course 1.2</a></li>
+                <li><a href="course1-3.html">Course 1.3</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
